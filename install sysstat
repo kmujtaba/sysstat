@@ -1,0 +1,11 @@
+sudo apt-get update
+sudo apt-get install sysstat
+
+{to uninstall sysstat}
+sudo apt-get remove sysstat
+
+{to delete configuration and/or data files of sysstat from Ubuntu}
+sudo apt-get purge sysstat
+
+{To delete configuration and/or data files of sysstat and it's dependencies from Ubuntu}
+sudo apt-get purge --auto-remove sysstat
